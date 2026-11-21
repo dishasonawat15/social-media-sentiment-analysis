@@ -1,0 +1,16 @@
+# Virtual environments
+tf-env/
+.venv/
+venv/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment variables / secrets
+.env
