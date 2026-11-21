@@ -11,7 +11,7 @@ An end-to-end Natural Language Processing (NLP) pipeline and REST API that proce
 
 ## Sample Output
 
-![Public Opinion Sentiment Trends for AI](./Figure_1.png)
+![Public Opinion Sentiment Trends for AI](./sentiment_trends.png)
 
 ## Project Structure
 
