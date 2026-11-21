@@ -6,8 +6,12 @@ An end-to-end Natural Language Processing (NLP) pipeline and REST API that proce
 
 - **NLP Preprocessing & Vectorization:** Cleans, tokenizes, and transforms text using `TfidfVectorizer` (lowercasing, stop-word removal, and TF-IDF weighting).
 - **Naive Bayes Classifier:** Trains a `MultinomialNB` model to predict sentiment labels along with per-class confidence probabilities.
-- **Trend Visualization:** Generates a bar chart of sentiment distribution with `Matplotlib`.
+- **Trend Visualization:** Generates a bar chart of sentiment distribution and opinion share trends over time with `Matplotlib`.
 - **FastAPI Backend & Swagger UI:** Provides interactive API documentation at `/docs` along with endpoints for custom text inference and keyword-based stream analysis.
+
+## Sample Output
+
+![Public Opinion Sentiment Trends for AI](./Figure_1.png)
 
 ## Project Structure
 
@@ -15,5 +19,6 @@ An end-to-end Natural Language Processing (NLP) pipeline and REST API that proce
 social-media-sentiment-analysis/
 ├── app.py                  # FastAPI application with /predict and /live-analysis/{keyword}
 ├── sentiment_analyzer.py   # Model training, evaluation metrics, and Matplotlib visualization
+├── Figure_1.png            # Sentiment distribution and trend visualization
 ├── .gitignore              # Ignored virtual environments, cache files, and secrets
 └── README.md               # Project documentation
